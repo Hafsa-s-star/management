@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>STUDENT MANAGEMENT SYSTEM</h1>
+        <div id="student list">
+            <h1>STUDENT LIST</h1>
+            <ul id="students"></ul>
+        </div>
+        <!--Add Student-->
+        <div class="form">
+            <h2>ADD NEW STUDENT</h2>
+            <input type="text" id="student name" placeholder="Name">
+            <input type="number" id="student-age" placeholder="Age">
+            <input type="text" id="student-grade" placeholder="Grade">
+            <button id="add-student-btn">Add Student</button>
+        </div>
+        <!--Remove Student-->
+        <div class="form">
+            <h2>REMOVE A STUDENT </h2>
+            <input type="number" id="remove-student-id" placeholder="Student ID">
+            <button id="remove-student-btn">Remove Student</button>
+        </div>
+        <!--update student-->
+        <div class="form">
+            <h2>UPDATE STUDENT </h2>
+            <input type="number" id="update-student-id" placeholder="Student ID">
+            <input type="text" id="update-student-grade" placeholder="New Grade">
+            <button id="update-grade-btn">Update Grade</button>
+        </div>
+    </div>
+     <script src="./assests/css/js/app.js"></script>
+    
+</body>
+</html>
